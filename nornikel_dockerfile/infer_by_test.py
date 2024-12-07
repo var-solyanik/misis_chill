@@ -20,9 +20,49 @@ dataset_path, output_path = sys.argv[1:]
 # В качестве примера здесь показана работа на примере модели из baseline
 
 # Пример функции инференса модели
+def add_sobel_as_fourth_channel(image):
+    """
+    Adds the Sobel operator (edge detection) result as the fourth channel to an input image.
+
+    Parameters:
+        image (numpy.ndarray): Input image (H, W, 3) read by cv2.
+
+    Returns:
+        numpy.ndarray: Image with the Sobel operator as the fourth channel (H, W, 4).
+    """
+    if image is None:
+        print(image)
+        raise ValueError("Input image is None. Please provide a valid image.")
+    
+    if image.shape[-1] != 3:
+        raise ValueError("Input image must have 3 channels (H, W, 3).")
+
+    # Convert to grayscale for edge detection
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    # Apply Sobel operator (X and Y gradients)
+    sobel_x = cv2.Sobel(gray, cv2.CV_64F, 1, 0, ksize=3)  # Sobel in X direction
+    sobel_y = cv2.Sobel(gray, cv2.CV_64F, 0, 1, ksize=3)  # Sobel in Y direction
+
+    # Compute the gradient magnitude
+    sobel_magnitude = cv2.magnitude(sobel_x, sobel_y)
+
+    # Normalize to 8-bit (0-255)
+    sobel_normalized = cv2.normalize(sobel_magnitude, None, 0, 255, cv2.NORM_MINMAX)
+    sobel_normalized = sobel_normalized.astype(np.uint8)
+
+    # Add Sobel as the fourth channel
+    sobel_channel = np.expand_dims(sobel_normalized, axis=-1)  # Shape (H, W, 1)
+    image_with_sobel = np.concatenate((image, sobel_channel), axis=-1)  # Shape (H, W, 4)
+
+    return image_with_sobel
+
+
 def infer_image(model, image_path):
     # Загрузка изображения
     image = cv2.imread(image_path)
+    image = add_sobel_as_fourth_channel(image)
+    
     # Инференс
     return model(image)
 
