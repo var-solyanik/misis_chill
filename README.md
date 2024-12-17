@@ -17,3 +17,10 @@
   <img src="https://img.shields.io/badge/YOLO-green?logo=opencv&logoColor=white" alt="YOLO" height="30">
   <img src="https://img.shields.io/badge/SMP-gray?logo=pytorch&logoColor=white" alt="SMP" height="30">
 </p>
+---
+# Команда проекта
+1. [Обычная ссылка в строке](https://www.google.com) dsadasdasd
+2. [Обычная ссылка в строке](https://www.google.com)
+3. [Обычная ссылка в строке](https://www.google.com)
+4. [Обычная ссылка в строке](https://www.google.com)
+5. [Обычная ссылка в строке](https://www.google.com)
