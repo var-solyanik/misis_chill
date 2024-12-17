@@ -8,13 +8,11 @@
    
 ---
 # Технологии и инструменты
-![Python](https://img.shields.io/badge/PYTHON-blue?logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NUMPY-teal?logo=numpy&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PYTORCH-red?logo=pytorch&logoColor=white)
-![Pandas](https://img.shields.io/badge/PANDAS-purple?logo=pandas&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/SCIKIT--LEARN-orange?logo=scikitlearn&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-darkgreen?logo=opencv&logoColor=white)
-![SMP](https://img.shields.io/badge/SMP-lightblue?logo=pytorch&logoColor=white)
+<img src="https://img.shields.io/badge/PYTHON-blue?logo=python&logoColor=white" alt="Python" height="30">
+<img src="https://img.shields.io/badge/NUMPY-teal?logo=numpy&logoColor=white" alt="NumPy" height="30">
+<img src="https://img.shields.io/badge/PYTORCH-red?logo=pytorch&logoColor=white" alt="PyTorch" height="30">
+<img src="https://img.shields.io/badge/PANDAS-purple?logo=pandas&logoColor=white" alt="Pandas" height="30">
+<img src="https://img.shields.io/badge/SCIKIT--LEARN-orange?logo=scikitlearn&logoColor=white" alt="Scikit-Learn" height="30">
 <img src="https://img.shields.io/badge/YOLO-darkgreen?logo=opencv&logoColor=white" alt="YOLO" height="30">
 <img src="https://img.shields.io/badge/SMP-lightblue?logo=pytorch&logoColor=white" alt="SMP" height="30">
 
