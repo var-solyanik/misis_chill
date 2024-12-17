@@ -15,4 +15,6 @@
 ![Scikit-Learn](https://img.shields.io/badge/SCIKIT--LEARN-orange?logo=scikitlearn&logoColor=white)
 ![YOLO](https://img.shields.io/badge/YOLO-darkgreen?logo=opencv&logoColor=white)
 ![SMP](https://img.shields.io/badge/SMP-lightblue?logo=pytorch&logoColor=white)
+<img src="https://img.shields.io/badge/YOLO-darkgreen?logo=opencv&logoColor=white" alt="YOLO" height="30">
+<img src="https://img.shields.io/badge/SMP-lightblue?logo=pytorch&logoColor=white" alt="SMP" height="30">
 
