@@ -17,8 +17,8 @@
   <img src="https://img.shields.io/badge/YOLO-green?logo=opencv&logoColor=white" alt="YOLO" height="30">
   <img src="https://img.shields.io/badge/SMP-gray?logo=pytorch&logoColor=white" alt="SMP" height="30">
 </p>
-------   
-### **Команда проекта**
+---
+# *Команда проекта*
 
 1. [Карпов Назарий](https://github.com/nazar-karpov)  
    *ML-engineer, разработка пайплайна обучения и инференса модели.*
