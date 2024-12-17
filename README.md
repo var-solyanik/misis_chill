@@ -17,10 +17,10 @@
   <img src="https://img.shields.io/badge/YOLO-green?logo=opencv&logoColor=white" alt="YOLO" height="30">
   <img src="https://img.shields.io/badge/SMP-gray?logo=pytorch&logoColor=white" alt="SMP" height="30">
 </p>
----
-# Команда проекта
-1. [Обычная ссылка в строке](https://www.google.com) dsadasdasd
-2. [Обычная ссылка в строке](https://www.google.com)
-3. [Обычная ссылка в строке](https://www.google.com)
-4. [Обычная ссылка в строке](https://www.google.com)
-5. [Обычная ссылка в строке](https://www.google.com)
+------   
+# Команда проекта  
+1. [Карпов Назарий](https://github.com/nazar-karpov) - ML-engineer, разработка пайплайна обучения и инференса модели   
+2. [Габдрахманов Заман](https://github.com/choseenonee) - ML-engineer, разработка пайплайна обучения и инференса модели   
+3. [Картаева Анна](https://github.com/kartaevana) - ML-engineer, исследования и добавление фичей в инференс   
+4. [Соляник Варвара](https://github.com/var-solyanik) - ML-engineer, исследования и добавление фичей в инференс     
+5. [Смирнов Павел](https://github.com/pshsmrnv) - ML-engineer, исследования и добавление фичей в инференс   
