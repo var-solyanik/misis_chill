@@ -13,4 +13,6 @@
 ![PyTorch](https://img.shields.io/badge/PYTORCH-red?logo=pytorch&logoColor=white)
 ![Pandas](https://img.shields.io/badge/PANDAS-purple?logo=pandas&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/SCIKIT--LEARN-orange?logo=scikitlearn&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-darkgreen?logo=opencv&logoColor=white)
+![SMP](https://img.shields.io/badge/SMP-lightblue?logo=pytorch&logoColor=white)
 
